@@ -16,8 +16,7 @@ npm install
 
 2. Create `.env` file in root directory with:
 ```
-MONGODB_URI=your_mongodb_connection_string
-PORT=3001
+VITE_MONGODB_URI=your_mongodb_connection_string
 ```
 
 3. Run development servers:
