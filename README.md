@@ -1,54 +1,32 @@
-# Welcome to your Lovable project
+## What is this project about?
 
-## Project info
+Secure Electronic Voting System built with modern web technologies. This full-stack application features:
+- React frontend with TypeScript
+- Node.js backend server
+- MongoDB database integration
+- Authentication system
+- Real-time voting results
 
-**URL**: https://lovable.dev/projects/9140c787-eac9-4c5b-b32b-143b7d79e91e
+## Getting Started
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9140c787-eac9-4c5b-b32b-143b7d79e91e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Install dependencies:
+```bash
+npm install
 ```
 
-**Edit a file directly in GitHub**
+2. Create `.env` file in root directory with:
+```
+MONGODB_URI=your_mongodb_connection_string
+PORT=3001
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Run development servers:
+```bash
+npm run dev  # Starts frontend development server
+npm run server  # Starts backend server
+```
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Visit http://localhost:3000 to access the application
 
 ## What technologies are used for this project?
 
@@ -59,11 +37,3 @@ This project is built with .
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9140c787-eac9-4c5b-b32b-143b7d79e91e) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
