@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnpm/
+.yarn/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Cache
+.npm
+.yarn-integrity
+.eslintcache
+.cache/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional
+*.local
